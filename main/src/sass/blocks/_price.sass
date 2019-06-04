@@ -1,0 +1,42 @@
+.price
+  padding-top: 100px 
+  text-align: center
+  &-title
+    max-width: 520px
+    text-align: center
+    margin: auto
+    margin-bottom: 58px
+  &-subtitle
+    display: inline-block
+    margin-bottom: 59px
+  &__card
+    margin-bottom: 30px
+    border: 1px solid #e8e8e8;
+    padding-bottom: 47px
+    &s
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+  &__image
+    margin-bottom: 39px
+  &__title
+    display: block
+    margin-bottom: 31px
+    font-size: 18px;
+  &__info
+    display: inline-block
+    position: relative
+    margin: auto
+    text-decoration: none
+    color: $text-color
+    font-size: 16px;
+    +bold
+    &::after
+      position: absolute
+      bottom: 0
+      left: 0
+      content: ''
+      display: block
+      background-color: $main-color
+      width: 100%
+      height: 3px

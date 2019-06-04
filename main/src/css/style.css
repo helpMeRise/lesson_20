@@ -625,6 +625,72 @@ img {
   }
 }
 
+.price {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.price-title {
+  max-width: 520px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 58px;
+}
+
+.price-subtitle {
+  display: inline-block;
+  margin-bottom: 59px;
+}
+
+.price__card {
+  margin-bottom: 30px;
+  border: 1px solid #e8e8e8;
+  padding-bottom: 47px;
+}
+
+.price__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.price__image {
+  margin-bottom: 39px;
+}
+
+.price__title {
+  display: block;
+  margin-bottom: 31px;
+  font-size: 18px;
+}
+
+.price__info {
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  text-decoration: none;
+  color: #333333;
+  font-size: 16px;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  font-weight: 700;
+}
+
+.price__info::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  display: block;
+  background-color: #ffd200;
+  width: 100%;
+  height: 3px;
+}
+
 .scroll {
   position: fixed;
   width: 40px;
